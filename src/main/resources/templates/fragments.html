@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragmenty</title>
+    <link rel="stylesheet" th:href="style.css">
+</head>
+<body>
+<div th:fragment="nav" class="nav">
+    <div class="logo">
+        <a th:href="@{/}"><img src="https://img.icons8.com/fluency/64/000000/lock.png"/></a>
+        <p>TajnaStrona.pl</p>
+    </div>
+    <div class="logoutButton" th:if="${loggedIn}">
+        <a href="/logout">Wyloguj</a>
+    </div>
+</div>
+<div th:fragment="footer" class="footer">
+    <p>Copyright © 2022 No Name</p>
+</div>
+</body>
+</html>

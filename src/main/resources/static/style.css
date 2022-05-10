@@ -1,0 +1,106 @@
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.center input {
+    margin-top: 10px;
+}
+.editForm {
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.logoutButton a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.logoutButton {
+    margin-top: 13px;
+    margin-right: 15px;
+}
+.thirdColumn {
+    height: 60px;
+}
+.thirdColumn {
+    display: flex;
+    justify-content: end;
+}
+.firstColumn {
+    width: 30%;
+}
+.nav {
+    background-color: chartreuse;
+    justify-content: space-between;
+
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.logo p {
+    font-size: larger;
+    margin-left: 10px;
+}
+.nav p {
+    margin-top: 17px;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+.secretData {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secretData img {
+    height: 250px;
+    width: 300px;
+}
+.dropbtn {
+    background-color: chartreuse;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.footer {
+    background-color: chartreuse;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+
+}
+.footer p {
+    color: white;
+}
+.editForm {
+    margin-bottom: 30px;
+}
+.welcomeHeader {
+    text-align: center;
+}
+.form-popup {
+    display: none;
+}
+.myName {
+    display:block;
+}
+.form-container input[type=text], .form-container input[type=password] {
+    width: 120px;
+}
